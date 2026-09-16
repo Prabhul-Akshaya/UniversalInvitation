@@ -228,7 +228,7 @@ ul, ol { list-style: none; }
 .countdown-completed { font-family: var(--font-heading); font-size: clamp(1.5rem, 5vw, 2.2rem); color: #fff; padding: 20px; }
 
 /* --- Event details --- */
-event-section { background: var(--surface); }
+.event-section { background: var(--surface); }
 .event-card {
   max-width: 600px; margin: 0 auto; text-align: center; padding: 48px 32px;
   border-radius: var(--radius-lg); background: var(--surface); box-shadow: var(--shadow-md);
