@@ -834,6 +834,7 @@ console.log("SCRIPT.JS IS RUNNING");
   }
 
   if (document.readyState === "loading") {
+     console.log("WAITING FOR DOMContentLoaded");
     document.addEventListener("DOMContentLoaded", boot);
   } else {
     boot();
