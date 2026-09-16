@@ -817,12 +817,16 @@ console.log("SCRIPT.JS IS RUNNING");
         throw new Error("Invalid configuration");
       }
       render(data);
-    } catch (err) {
-      const loading = $("#loading-screen");
-      if (loading) loading.hidden = true;
-      const errorScreen = $("#error-screen");
-      if (errorScreen) errorScreen.hidden = false;
-    }
+    } catch (err) 
+    {
+     console.error("INVITATION BOOT ERROR:", err);
+   
+     const loading = $("#loading-screen");
+     if (loading) loading.hidden = true;
+   
+     const errorScreen = $("#error-screen");
+     if (errorScreen) errorScreen.hidden = false;
+   }
   }
 
   if (document.readyState === "loading") {
