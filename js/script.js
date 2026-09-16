@@ -820,7 +820,9 @@ console.log("SCRIPT.JS IS RUNNING");
       if (!validate(data)) {
         throw new Error("Invalid configuration");
       }
+       console.log("RENDER STARTED");
       render(data);
+       console.log("RENDER FINISHED");
     } catch (err) 
     {
      console.error("INVITATION BOOT ERROR:", err);
