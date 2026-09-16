@@ -3,6 +3,7 @@
    Loads invitation.json, validates, applies theme, and
    dynamically renders all sections. No event-specific logic.
    ============================================================ */
+console.log("SCRIPT.JS IS RUNNING");
 (function () {
   "use strict";
 
