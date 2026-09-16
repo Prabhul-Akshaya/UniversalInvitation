@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-event-type="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#7A1838" />
+  <meta name="description" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="" id="google-fonts-link" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title></title>
+</head>
+<body>
+  <!-- Loading screen -->
+  <div id="loading-screen" class="loading-screen" role="status" aria-live="polite">
+    <div class="loading-ring" aria-hidden="true"></div>
+    <p class="loading-text" id="loading-text"></p>
+  </div>
+
+  <!-- Error screen (shown only if config fails to load) -->
+  <div id="error-screen" class="error-screen" hidden>
+    <div class="error-content">
+      <div class="error-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="48" height="48"><path d="M12 2L1 21h22L12 2zm0 4l8 14H4l8-14zm-1 5v5h2v-5h-2zm0 7v2h2v-2h-2z" fill="currentColor"/></svg>
+      </div>
+      <h1 class="error-title">Unable to load this invitation</h1>
+      <p class="error-message">Please check the invitation configuration and try again.</p>
+    </div>
+  </div>
+
+  <!-- App root: all sections are generated dynamically by the engine -->
+  <div id="app" class="app" hidden>
+    <!-- Navigation (generated) -->
+    <nav id="nav" class="nav" aria-label="Main navigation" hidden></nav>
+    <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav" hidden>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+
+    <!-- Main content: sections injected here in configured order -->
+    <main id="main" class="main"></main>
+
+    <!-- Back to top -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" hidden>
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M12 4l-8 8h5v8h6v-8h5l-8-8z" fill="currentColor"/></svg>
+    </button>
+
+    <!-- Music control (generated) -->
+    <div id="music-control" class="music-control" hidden></div>
+
+    <!-- Lightbox (generated) -->
+    <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Image viewer"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

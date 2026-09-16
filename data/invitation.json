@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "eventType": "engagement",
+    "language": "en",
+    "title": "Ananya & Arjun",
+    "description": "Join us as we celebrate a beautiful beginning. You are warmly invited to our engagement ceremony.",
+    "author": "",
+    "version": "1.0"
+  },
+
+  "site": {
+    "title": "Ananya & Arjun",
+    "favicon": "assets/images/favicon.svg",
+    "loadingScreen": true
+  },
+
+  "loading": {
+    "enabled": true,
+    "text": "Loading our invitation…"
+  },
+
+  "hosts": {
+    "enabled": true,
+    "people": [
+      {
+        "name": "Ananya",
+        "role": "Bride",
+        "image": ""
+      },
+      {
+        "name": "Arjun",
+        "role": "Groom",
+        "image": ""
+      }
+    ],
+    "displayName": "Ananya & Arjun"
+  },
+
+  "invitation": {
+    "enabled": true,
+    "eyebrow": "Together with their families",
+    "title": "We invite you to celebrate",
+    "subtitle": "Our Engagement",
+    "message": "With joyful hearts, we invite you to share this beautiful occasion with us and bless us as we begin a new chapter of our lives together.",
+    "signature": "With love, Ananya & Arjun"
+  },
+
+  "hero": {
+    "enabled": true,
+    "backgroundImage": "https://images.pexels.com/photos/29037544/pexels-photo-29037544.jpeg?auto=compress&cs=tinysrgb&h=900&w=1400",
+    "foregroundImage": "",
+    "eyebrow": "Together with their families",
+    "title": "Ananya & Arjun",
+    "subtitle": "Our Engagement",
+    "description": "A beautiful beginning to a lifetime of togetherness.",
+    "button": {
+      "enabled": true,
+      "label": "Explore Invitation",
+      "target": "event"
+    },
+    "scrollIndicator": true
+  },
+
+  "event": {
+    "enabled": true,
+    "type": "Engagement Ceremony",
+    "date": {
+      "iso": "2026-12-20",
+      "display": "",
+      "day": "",
+      "displayOverride": ""
+    },
+    "time": {
+      "display": "11:00 AM",
+      "timezone": "Asia/Kolkata",
+      "utcOffset": "+05:30"
+    },
+    "venue": {
+      "name": "Grand Celebration Hall",
+      "address": "123 MG Road, Statue Junction",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "country": "India"
+    }
+  },
+
+  "countdown": {
+    "enabled": true,
+    "target": "2026-12-20T11:00:00+05:30",
+    "beforeMessage": "The celebration begins in",
+    "completedMessage": "The celebration has begun",
+    "showDays": true,
+    "showHours": true,
+    "showMinutes": true,
+    "showSeconds": true,
+    "labels": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    }
+  },
+
+  "location": {
+    "enabled": true,
+    "title": "Find Us",
+    "description": "We look forward to celebrating with you.",
+    "name": "Grand Celebration Hall",
+    "address": "123 MG Road, Statue Junction, Thiruvananthapuram, Kerala, India",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Thiruvananthapuram+Kerala+India",
+    "buttonText": "Open in Google Maps"
+  },
+
+  "story": {
+    "enabled": true,
+    "title": "Our Story",
+    "items": [
+      {
+        "title": "How It Began",
+        "date": "Spring 2022",
+        "text": "Our story began with a chance meeting that felt like destiny. A conversation that flowed effortlessly, a laughter that felt like home.",
+        "image": "https://images.pexels.com/photos/16171611/pexels-photo-16171611.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
+      },
+      {
+        "title": "Growing Together",
+        "date": "Summer 2024",
+        "text": "Through seasons of joy and moments of growth, we discovered that the best journeys are the ones shared with the right person.",
+        "image": "https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
+      },
+      {
+        "title": "The Promise",
+        "date": "Winter 2026",
+        "text": "Today, we invite you to witness the promise of a lifetime as we take the first step toward forever, together.",
+        "image": "https://images.pexels.com/photos/16040239/pexels-photo-16040239.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
+      }
+    ]
+  },
+
+  "gallery": {
+    "enabled": true,
+    "title": "Beautiful Moments",
+    "layout": "masonry",
+    "lightbox": true,
+    "images": [
+      { "src": "https://images.pexels.com/photos/29037544/pexels-photo-29037544.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Couple exchanging rings", "caption": "The moment of forever" },
+      { "src": "https://images.pexels.com/photos/16171611/pexels-photo-16171611.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Newlywed couple", "caption": "Together always" },
+      { "src": "https://images.pexels.com/photos/30443892/pexels-photo-30443892.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Wedding cake celebration", "caption": "Sweet beginnings" },
+      { "src": "https://images.pexels.com/photos/34543838/pexels-photo-34543838.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Ring and bracelet", "caption": "Symbols of love" },
+      { "src": "https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Wedding bouquet", "caption": "Bloom of joy" },
+      { "src": "https://images.pexels.com/photos/30443907/pexels-photo-30443907.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Couple with flowers", "caption": "A celebration of us" }
+    ]
+  },
+
+  "rsvp": {
+    "enabled": true,
+    "title": "RSVP",
+    "message": "We would love to know if you can join us on our special day.",
+    "whatsapp": {
+      "enabled": true,
+      "number": "919999999999",
+      "messageTemplate": "Hello! I would like to confirm my attendance for {{eventTitle}} on {{eventDate}} at {{venue}}. Looking forward to celebrating with {{hostNames}}!"
+    },
+    "phone": {
+      "enabled": true,
+      "number": "+919999999999"
+    },
+    "email": {
+      "enabled": true,
+      "address": "rsvp@example.com",
+      "subject": "RSVP: {{eventTitle}}"
+    },
+    "googleForm": {
+      "enabled": false,
+      "url": ""
+    }
+  },
+
+  "music": {
+    "enabled": true,
+    "source": "assets/music/background.mp3",
+    "autoplay": false,
+    "loop": true,
+    "volume": 0.5,
+    "buttonLabel": "Music"
+  },
+
+  "theme": {
+    "primary": "#7A1838",
+    "secondary": "#C8A24A",
+    "background": "#FBF7EF",
+    "surface": "#FFFDF8",
+    "text": "#35251F",
+    "muted": "#75655D",
+    "accent": "#9B6A2E",
+    "fonts": {
+      "heading": "'Playfair Display', Georgia, 'Times New Roman', serif",
+      "body": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    },
+    "googleFonts": "Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600"
+  },
+
+  "navigation": {
+    "enabled": true,
+    "items": [
+      { "label": "Home", "target": "hero" },
+      { "label": "Invitation", "target": "invitation" },
+      { "label": "Story", "target": "story" },
+      { "label": "Gallery", "target": "gallery" },
+      { "label": "Event", "target": "event" },
+      { "label": "Location", "target": "location" },
+      { "label": "RSVP", "target": "rsvp" }
+    ]
+  },
+
+  "sections": {
+    "hero": true,
+    "invitation": true,
+    "hosts": true,
+    "countdown": true,
+    "event": true,
+    "story": true,
+    "gallery": true,
+    "location": true,
+    "rsvp": true,
+    "music": true,
+    "footer": true
+  },
+
+  "sectionOrder": [
+    "hero",
+    "invitation",
+    "hosts",
+    "countdown",
+    "story",
+    "gallery",
+    "event",
+    "location",
+    "rsvp",
+    "footer"
+  ],
+
+  "contentBlocks": [
+    {
+      "enabled": true,
+      "id": "dress-code",
+      "title": "Dress Code",
+      "text": "We request elegant traditional attire in shades of maroon and gold to match the celebration.",
+      "image": ""
+    },
+    {
+      "enabled": true,
+      "id": "special-note",
+      "title": "A Special Note",
+      "text": "Your presence means the world to us. Please arrive by 10:45 AM so we can welcome you before the ceremony begins.",
+      "image": ""
+    }
+  ],
+
+  "buttons": [],
+
+  "social": {
+    "enabled": false,
+    "links": []
+  },
+
+  "decorations": {
+    "enabled": true,
+    "style": "elegant",
+    "elements": ["sparkles", "flowers", "rings"]
+  },
+
+  "animations": {
+    "ring": {
+      "enabled": true,
+      "style": "luxury",
+      "speed": "normal"
+    },
+    "revealOnScroll": true
+  },
+
+  "footer": {
+    "enabled": true,
+    "message": "Made with love",
+    "hashtag": "#AnanyaAndArjun"
+  }
+}
