@@ -808,10 +808,14 @@ console.log("SCRIPT.JS IS RUNNING");
 
   /* ---------- Boot ---------- */
   async function boot() {
+     console.log("BOOT STARTED");
     try {
+       console.log("BOOT fetch");
       const res = await fetch("data/invitation.json", { cache: "no-store" });
+       console.log("fetch completed");
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       let data = await res.json();
+       console.log("data json loaded",data);
       data = deepMerge(DEFAULTS, data);
       if (!validate(data)) {
         throw new Error("Invalid configuration");
